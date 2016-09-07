@@ -9,8 +9,8 @@ img {
 header {
   padding: 0;
   margin: 0;
-  height: 1000px;
-  background: url('dcbackground.gif');
+  height: 700px;
+  background: url('background.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -19,8 +19,8 @@ header {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 0px;
-  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-top: 200px;
 }
 header .row,
 footer .row {
@@ -34,9 +34,9 @@ header h1 {
 }
 
 #nav {
-  color: #D4AF37;
+  color: #000000;
   padding: 5px 10px 5px 10px;
-  border: 1px solid #D4AF37;
+  border: 1px solid #000000;
 }
 
 header nav p a:hover {
