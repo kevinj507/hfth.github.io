@@ -1,0 +1,226 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%
+}
+header {
+  padding: 0;
+  margin: 0;
+  height: 1000px;
+  background: url('dcbackground.gif');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#logo {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+#nav {
+  color: #D4AF37;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #D4AF37;
+}
+
+header nav p a:hover {
+  background-color: white;
+}
+#tag {
+  color: #daa520;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: -450px;
+  font-weight: 400;
+  font-size: 32px;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#home {
+  margin-top: 50px;
+  padding: 50px 0 0 50px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 70%;
+  width: 70%;
+}
+
+#hometags {
+  font-size: 1.7vw;
+  font-weight: 400;
+  border: 1px solid black;
+}
+
+#hometext {
+  font-size: 1.5vw;
+}
+
+#services {
+  margin-top: 50px;
+  padding: 50px 0 0 50px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 70%;
+  width: 70%;
+}
+
+#servicetag {
+  font-size: 48px;
+  font-weight: 250;
+  border-bottom: 1px solid black;
+}
+#serviceimage {
+  height: 600px;
+  width: 600px;
+  border-radius: 300px;
+}
+
+#foo {
+  display: none;
+}
+#serviceimage:hover {
+  opacity: 0.6;
+  border: 2px solid black;
+}
+
+#svp {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#movedown {
+  padding-top: 15px;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+#servicedescription {
+  padding-top: 50px;
+  font-size: 1.5vw;
+}
+
+#blurb {
+  font-size: 1.5vw;
+  display: block;
+}
+
+#blurb1 {
+  visibility: hidden;
+
+  padding: 20px 50px 20px 50px;
+  margin-right, margin-left: auto;
+}
+
+#blurb2 {
+  visibility: hidden;
+
+  padding: 20px 50px 20px 50px;
+  margin-right, margin-left: auto;
+}
+
+#team {
+  margin-top: 50px;
+  padding: 50px 0 0 50px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 70%;
+  width: 70%;
+}
+
+#teamdetail {
+  clear both;
+  font-size: 1vw;
+  text-align: center;
+  margin-top: 9%;
+}
+
+#inquiries {
+  margin-top: 50px;
+  padding: 50px 0 0 50px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 70%;
+  width: 70%;
+}
+
+#inquirypic {
+  margin: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#inquirytext {
+  font-size: 1.5vw;
+  margin-top: 15%;
+}
+
+#career {
+  font-size: 1.5vw;
+  font-weight: 390;
+  border-bottom: 1px solid black;
+}
+
+#intern {
+  font-size: 1.2vw;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header p {
+  padding: 0 70px;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  border-top: 1px solid black;
+}
+
+#returnfooter {
+  font-size: 16px;
+  padding: 5px 8px 5px 8px;
+  border: 1px solid black;
+  color: black;
+}
+
+#returnfooter:hover {
+  opacity: 0.6;
+}
+
+#filler {
+  visibility: hidden;
+  padding: 50px 50px 50px 50px;
+}
